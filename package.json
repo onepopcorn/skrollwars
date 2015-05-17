@@ -1,0 +1,16 @@
+{
+	"name" : "SkrollWars",
+	"title": "SkrollWars",
+	"version" : "1.0.0",
+	"description" : "An scroller animation inspired in Star Wars movies opening",
+	"repository" :{
+		"type" : "git",
+		"url" : "git@github.com:onepopcorn/skrollwars.git"	 
+	},
+	"devDependencies" : {
+		"grunt": "0.4.1",
+		"grunt-contrib-compass": "0.7.0",
+		"grunt-contrib-watch" : "0.5.3",
+		"grunt-contrib-clean" : "0.5.0"
+	}
+}

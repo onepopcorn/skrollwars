@@ -1,0 +1,31 @@
+@include keyframes(boom){
+	0%{background-position: 0px;}
+	50%,100%{background-position: -2433px;}
+};
+
+@include keyframes(down){
+	0%{top:0;}
+	100%{top:10px;}
+}
+
+@include keyframes(beam){
+	0%{
+		left:431px;
+		bottom:292px;
+	}
+	25%,100%{
+		left:1350px;
+		bottom:420px
+	}
+}
+
+@include keyframes(beam2){
+	0%{
+		left: 410px;
+		bottom: 298px;
+	}
+	25%,100%{
+		left: 1350px;
+		bottom: 458px;
+	}
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Skroller - test</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,user-scalable=no">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="background">
+		<div class="scroll-down" data-0="opacity:1" data-1="opacity:0">scroll down slowly</div>
+		<p class="text-intro text" data-0="opacity:0" data-200="opacity:1" data-550="opacity:0">A long time ago in a galaxy far far away...</p>
+		<img class="logo-star-wars" data-0="opacity:!0;" data-600="transform:translate(50%,200%) scale(2);opacity:!1" data-750="transform:translate(50%,200%) scale(1);" src="img/star_wars_logo.png" alt="">
+		<div class="star-background"></div>
+		<img class="planet" src="img/planet.png">
+		<img class="destroyer" src="img/destroyer.png" data-0="right:-150px" data-4000="right:30px">
+		<img class="tie-bomber" src="img/tiebomber.png" data-1000="left:-50px" data-5000="left:1950px">
+		<img class="tie-bomber2" src="img/tiebomber.png" data-1000="left:0px" data-5000="left:2000px">
+		<img class="tie-fighter" src="img/tiefighter.png" data-2000="left:0px;top:38%;" data-3000="left:2500px;top:33%">
+		<img class="tie-fighter2" src="img/tiefighter.png" data-2000="left:30px;top:40%" data-3000="left:2500px;top:33%">
+		<img class="deathstar" src="img/deathstar.png">
+		<img class="y-wing" src="img/y-wing.png" data-2000="right:20%;" data-3000="right:80%;">
+		<img class="x-wing" src="img/x-wing.png" data-2000="right:10%;top:44%;" data-3500="right:80%;top:46%;">
+		<div class="explosion"></div>
+		<div class="explosion2"></div>
+		<div class="explosion3"></div>
+		<div class="explosion4"></div>
+		<img class="falcon" src="img/m-falcom.png" data-4000="top:60%;left:-30%" data-5200="top:80%;left:85%">
+		<img class="cloud" src="img/cloud.png" data-3500="left:30%" data-5000="left:-20%">
+		<div class="sky-top"></div>
+		<div class="sky-bottom"></div>
+		<img class="ground" src="img/hoth.png">
+		<img class="snowspeeder" src="img/snowspeeder.png" data-5280="top:85%;right:0%" data-6000="top:92%;right:100%">
+		<img class="snowspeeder2" src="img/snowspeeder2.png" data-6000="top:98%;left:60%;" data-6300="top:85%;left:0%">
+		<img class="beam" src="img/beam.png">
+		<img class="beam2" src="img/beam.png">
+	</div>
+	<script type="text/javascript" src="bower_components/bower-skrollr/skrollr.min.js"></script>
+	<script type="text/javascript">
+		skrollr.init();
+	</script>
+</body>
+</html>
