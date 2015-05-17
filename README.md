@@ -10,6 +10,10 @@ Skroll Wars uses [grunt](http://gruntjs.com) & [nodejs](https://nodejs.org/) to 
 
 Type `npm install` ton install the development dependencies. After that, type `grunt` to run the default development task or run `grunt build` to compile the minified version for production.
 
+## Example
+
+You can see the final result [here](http://skrollwars.onepopcorn.com)
+
 ## Author
 
 Marc Feliu __(onepopcorn)__
